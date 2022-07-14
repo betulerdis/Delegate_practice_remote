@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         present(selectionVC, animated: true, completion: nil)
         
     }
+    @IBAction func startButton(_ sender: Any) {
+    }
 }
 
 extension ViewController: ColorSelectionDelegate {
